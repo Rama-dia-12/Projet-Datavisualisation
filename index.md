@@ -809,17 +809,13 @@ Et le voici après les modifications mentionnées plus haut sur OpenRefine :
    
 <iframe src='https://public.flourish.studio/visualisation/12692271/embed' title='Répartition par année des plus gros succès et de leur chiffres au box office' frameborder='0' scrolling='yes' style='width:600;height:450px;'></iframe>
 
-   **c. Area chart du nombre d'entrées cumulées par années**
-   
-<iframe src='https://datawrapper.dwcdn.net/D4VHa/1/embed' title='Nombre d'entrées cumulées par années' frameborder='0' scrolling='yes' style='width:600;height:450px;'></iframe>
-  
-   **d. Réalisateurs ayant comptabilisé le plus d'entrées dans les salles françaises**
+   **c. Réalisateurs ayant comptabilisé le plus d'entrées dans les salles françaises**
     
-<iframe src='https://datawrapper.dwcdn.net/WTsSC/1/embed' title='Réalisateurs ayant comptabilisé le plus d'entrées dans les salles françaises' frameborder='0' scrolling='yes' style='width:600;height:450px;'></iframe>
+<iframe src='https://public.flourish.studio/visualisation/12706313/embed' title='Vision globale des réalisateurs et des performances de leurs films' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
   
-   **e. Le Cinéma Français à l'international avec Wikidata Query Service**
+   **d. Le Cinéma Français à l'international avec Wikidata Query Service**
    
-   L'analyse de ces données laisse clairement transparaître l'enthousiasme des français pour le grand écran, tant du côté des spectateurs que de celui des créateurs. Cependant, elle soulève également d'autres questions. On pourrait par exemple se demander ce qu'il en est du succès - ou non - du cinéma français contemporain à l'international, en compaaison avec les autres pays. Pour obtenir des données pertinentes à ce sujet, il a fallu interroger la base de données Wikidata. J'ai formulé la requête suivante :
+L'analyse de ces données laisse clairement transparaître l'enthousiasme des français pour le grand écran, tant du côté des spectateurs que de celui des créateurs. Cependant, elle soulève également d'autres questions. On pourrait par exemple se demander ce qu'il en est du succès - ou non - du cinéma français contemporain à l'international, en compaaison avec les autres pays. Pour obtenir des données pertinentes à ce sujet, il a fallu interroger la base de données Wikidata. J'ai formulé la requête suivante :
 ```SPARQL
 
 #création de colonnes qui renseignent : le pays d'origine, les chiffres au box office, ainsi que les noms de ces films
